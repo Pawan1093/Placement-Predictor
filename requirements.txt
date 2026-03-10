@@ -1,0 +1,6 @@
+pandas
+numpy
+uvicorn
+scikit-learn
+jinja2
+fastapi
