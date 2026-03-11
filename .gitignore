@@ -1,2 +1,4 @@
 venv/
 dataset.csv
+knn_model.pkl
+lr_model.pkl
