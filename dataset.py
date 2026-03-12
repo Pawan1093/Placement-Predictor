@@ -21,7 +21,7 @@ placement_score = (
     np.random.normal(0, 5, n)
 )
 
-placed = (placement_score > 65).astype(int)
+placed = (placement_score > 72).astype(int)
 
 salary = (
     cgpa * 40000 +
