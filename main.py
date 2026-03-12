@@ -52,7 +52,7 @@ async def predict(
         "projects_done": projects_done,
         "internship": "Yes" if internship == 1 else "No"
     }
-    
+
     return templates.TemplateResponse(
         "index.html",
         {"request": request, "result": result}
